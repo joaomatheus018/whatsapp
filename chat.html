@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>WhatsApp Web</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+
+<body class="chat-body">
+
+
+    <div class="chat-container">
+
+
+        <!-- ============================= -->
+        <!-- LISTA DE USUÁRIOS -->
+        <!-- ============================= -->
+
+        <aside class="sidebar">
+
+
+            <div class="sidebar-header">
+
+                <h3>
+                    Minhas Conversas
+                </h3>
+
+            </div>
+
+
+            <div
+                class="chat-list"
+                id="chat-list"
+            >
+
+                <!-- Usuários aparecem aqui -->
+
+            </div>
+
+
+        </aside>
+
+
+
+        <!-- ============================= -->
+        <!-- ÁREA DO CHAT -->
+        <!-- ============================= -->
+
+        <main class="chat-area">
+
+
+            <header class="chat-header">
+
+                <div class="user-header">
+
+                    <div class="header-avatar">
+                        💬
+                    </div>
+
+                    <div>
+
+                        <h3 id="chat-title">
+                            Selecione uma conversa
+                        </h3>
+
+                    </div>
+
+                </div>
+
+            </header>
+
+
+
+            <!-- ============================= -->
+            <!-- MENSAGENS -->
+            <!-- ============================= -->
+
+            <div
+                class="messages-container"
+                id="messages-container"
+            >
+
+            </div>
+
+
+
+            <!-- ============================= -->
+            <!-- CAMPO DE ENVIO -->
+            <!-- ============================= -->
+
+            <footer class="chat-footer">
+
+
+                <input
+                    type="text"
+                    id="message-input"
+                    placeholder="Digite uma mensagem..."
+                    autocomplete="off"
+                >
+
+
+                <button
+                    type="button"
+                    id="send-btn"
+                >
+                    Enviar
+                </button>
+
+
+            </footer>
+
+
+        </main>
+
+
+    </div>
+
+
+    <script src="js/chat.js"></script>
+
+</body>
+
+</html>

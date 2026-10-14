@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - WhatsApp</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Faixa verde no topo -->
+    <div class="header-bg"></div>
+
+    <!-- Centralização do Conteúdo -->
+    <div class="container">
+        <div class="login-card">
+            
+            <div class="card-header">
+                <svg class="whatsapp-icon" viewBox="0 0 24 24" fill="#25D366">
+                    <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.299.431 2.503 1.162 3.473l-.768 2.802 2.871-.752c.937.587 2.04.922 3.22.922 3.182 0 5.767-2.586 5.767-5.766 0-3.18-2.585-5.765-5.767-5.765zm0 10.366c-1.008 0-1.959-.28-2.772-.768l-.198-.118-1.706.447.455-1.663-.129-.206c-.538-.858-.822-1.853-.821-2.875 0-2.81 2.287-5.097 5.098-5.097 2.81 0 5.097 2.287 5.097 5.097 0 2.811-2.287 5.098-5.097 5.098z"/>
+                </svg>
+                <h2>Entrar na sua conta</h2>
+                <p>Informe seus dados de acesso abaixo</p>
+            </div>
+
+            <form class="login-form">
+                <div class="input-group">
+                    <label for="phone">Telefone ou E-mail</label>
+                    <input type="text" id="phone" placeholder="+55 (11) 99999-9999" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" placeholder="Digite sua senha" required>
+                </div>
+
+                <div class="form-options">
+                    <label class="remember-me">
+                        <input type="checkbox" checked> Lembrar de mim
+                    </label>
+                    <a href="#" class="forgot-password">Esqueceu a senha?</a>
+                </div>
+
+                <button type="submit" class="btn-submit">Entrar</button>
+
+                <div class="card-footer">
+                    Não tem uma conta? <a href="#">Cadastre-se</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        WhatsApp Clone &copy; 2026
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
